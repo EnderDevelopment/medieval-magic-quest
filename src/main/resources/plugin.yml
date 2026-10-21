@@ -1,0 +1,24 @@
+name: RPGModpack
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: Um modpack de RPG com magia clássica medieval
+authors: [EnderDevelopment]
+website: https://enderdevelopment.com
+api-version: "1.21"
+commands:
+  rpg:
+    description: Comandos principais do RPG
+    usage: /rpg <subcomando>
+  magia:
+    description: Comandos de magia
+    usage: /magia <subcomando>
+  habilidades:
+    description: Comandos de habilidades
+    usage: /habilidades <subcomando>
+  guildas:
+    description: Comandos de guildas
+    usage: /guildas <subcomando>
+  loja:
+    description: Comandos de loja
+    usage: /loja <subcomando>
